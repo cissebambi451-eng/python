@@ -13,5 +13,6 @@ print(ca_par_produit)
 total = sum(ca_par_produit.values())
 print(f"Total : {total:.2f} euros")
 
+# On cherche le produit qui rapporte le plus 
 meilleur = max(ca_par_produit, key=ca_par_produit.get)
 print(f"Meilleur produit : {meilleur}")

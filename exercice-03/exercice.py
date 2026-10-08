@@ -15,6 +15,7 @@ print(f"Jours > 15 °C : {compteur}")
 fahrenheit = []
 for temperature in temperatures:
     f = temperature * 9 / 5 + 32
+    # on ajoute chaque température convertie à la fin de la liste fahrenheit
     fahrenheit.append(f)
 print(f"Fahrenheit : ({fahrenheit}")
 
