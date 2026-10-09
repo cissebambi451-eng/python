@@ -17,7 +17,7 @@ for temperature in temperatures:
     f = temperature * 9 / 5 + 32
     # on ajoute chaque température convertie à la fin de la liste fahrenheit
     fahrenheit.append(f)
-print(f"Fahrenheit : ({fahrenheit}")
+print(f"Fahrenheit : {fahrenheit}")
 
 for jour , temperature in enumerate(temperatures , start=1):
     print(f"jour {jour} : {temperature} °C")

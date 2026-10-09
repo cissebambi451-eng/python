@@ -3,7 +3,7 @@ ventes = [
     {"produit": "thé", "prix": 2.0, "quantite": 80},
     {"produit": "jus", "prix": 3.5, "quantite": 45},
 ]
-ca_par_produit = {}
+
 ca_par_produit = {}
 for vente in ventes:
     ca_par_produit[vente["produit"]] = vente["prix"] * vente["quantite"]
